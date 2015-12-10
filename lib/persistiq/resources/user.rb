@@ -9,7 +9,7 @@ module Persistiq
       private
 
       def user_path(id=nil)
-        id ? "users/#{id}/" : "user"
+        id ? "users/#{id}/" : "users"
       end
 
     end
