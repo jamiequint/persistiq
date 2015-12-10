@@ -56,7 +56,7 @@ client.list_campaigns
 
 #add leads to a campaign
 client.add_leads_to_campaign(
-  id: "#{campaign_id}",
+  id: campaign_id,
   leads: [
     {id: lead_id},
     {id: lead_id}
